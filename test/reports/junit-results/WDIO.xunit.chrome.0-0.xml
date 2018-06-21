@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="navigating_to_contact_us_page" timestamp="2018-06-20T20:23:03" time="12.91" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="afd60bf6ca8e0745529d6fa7f5d37033"/>
+      <property name="suiteName" value="navigating to contact-us page"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.navigating to contact-us page" name="should allow user to navigating contact-us page " time="12.909">
+      <system-out>
+        <![CDATA[
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/url - {"url":"http://www.phptravels.net/contact-us"}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":764366313,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":715818633,"value":{"ELEMENT":"0"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element/0/displayed - {}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":376290862,"value":true,"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":1754135716,"value":{"ELEMENT":"0"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element/0/text - {}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":1550871312,"value":"Contact Us","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: POST http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element - {"using":"xpath","value":"//div/h3[contains(., \"Contact Us\")]"}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":655831678,"value":{"ELEMENT":"0"},"class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: GET http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258/element/0/text - {}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":553161444,"value":"Contact Us","class":"org.openqa.selenium.remote.Response","status":0}
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/dfacbb93-133d-48d1-9b97-c3268b66c258 - {}
+RESULT: {"state":"success","sessionId":"dfacbb93-133d-48d1-9b97-c3268b66c258","hCode":886406961,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

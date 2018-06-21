@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="phptravels_net_login_page" timestamp="2018-06-20T20:17:45" time="0.006" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="6645375648574cf928a0231d0afe1631"/>
+      <property name="suiteName" value="phptravels.net login page"/>
+      <property name="capabilities" value="chrome"/>
+    </properties>
+    <testcase classname="chrome.phptravels.net login page" name="should allow user to login " time="0.001">
+      <system-out>
+        <![CDATA[
+COMMAND: DELETE http://127.0.0.1:4444/wd/hub/session/c4f47fd6-b1cb-4c19-948b-e6466ac0d034 - {}
+RESULT: {"state":"success","sessionId":"c4f47fd6-b1cb-4c19-948b-e6466ac0d034","hCode":2135497241,"value":null,"class":"org.openqa.selenium.remote.Response","status":0}
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -12,6 +12,6 @@ describe('navigating to contact-us page', function() {
     contactUs.waitForContactPageToLoad();
     console.log(contactUs.getPageTitle());
     expect(contactUs.getPageTitle()).to.equal('Contact Us');
-
+    browser.pause(5000);
   });
 });

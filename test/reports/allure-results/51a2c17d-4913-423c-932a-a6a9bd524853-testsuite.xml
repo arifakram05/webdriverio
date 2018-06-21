@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1529543443234' stop='1529543448108'>
+    <name>phptravels.net login page</name>
+    <title>phptravels.net login page</title>
+    <test-cases>
+        <test-case start='1529543443235' status='broken' stop='1529543448107'>
+            <name>should allow user to login </name>
+            <title>should allow user to login </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","platform":"","version":"","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/arifakrammohammed/Arif/My Projects/webdriverio/webdriverIO-with-mochaBDD/test/specs/ta-user-login.spec.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1529543443244' status='passed' stop='1529543448087'>
+                    <name>POST /wd/hub/session/da9145ef-1405-494e-871c-87943985b790/url</name>
+                    <title>POST /wd/hub/session/da9145ef-1405-494e-871c-87943985b790/url</title>
+                    <attachments>
+                        <attachment title='Request' source='fa43710f-994d-4a9c-8977-275fb964d936-attachment.json' type='application/json' size='48'/>
+                        <attachment title='Response' source='cc6492e6-a139-481a-9e8d-e6e0401ead97-attachment.json' type='application/json' size='382994'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: missing or invalid 'entry.level'</message>
+                <stack-trace>Error: An unknown server-side error occurred while processing the command.
+                    at url("login") - index.js:323:3</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
