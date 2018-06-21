@@ -6,7 +6,9 @@ class ContactUS extends Page {
     * define elements
     */
 
-    get contactUsText ()     { return browser.element('//div/h3[contains(., "Contact Us")]'); }
+    get contactUsText () {
+      return browser.element('//div/h3[contains(., "Contact Us")]');
+    }
 
     /**
      * define or overwrite page methods

@@ -1,0 +1,28 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1529545091864' stop='1529545091871'>
+    <name>navigating to contact-us page</name>
+    <title>navigating to contact-us page</title>
+    <test-cases>
+        <test-case start='1529545091865' status='broken' stop='1529545091870'>
+            <name>should allow user to navigating contact-us page </name>
+            <title>should allow user to navigating contact-us page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"browserName":"chrome","platform":"","version":"","maxInstances":"5"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["/Users/arifakrammohammed/Arif/My Projects/webdriverio/webdriverIO-with-mochaBDD/test/specs/ta-contact-us.spec.js"]'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>_taContactus2.default.open is not a function</message>
+                <stack-trace>TypeError: _taContactus2.default.open is not a function
+                    at Context.&lt;anonymous> (/Users/arifakrammohammed/Arif/My Projects/webdriverio/webdriverIO-with-mochaBDD/test/specs/ta-contact-us.spec.js:11:15)
+                    at /Users/arifakrammohammed/Arif/My Projects/webdriverio/webdriverIO-with-mochaBDD/node_modules/wdio-mocha-framework/node_modules/wdio-sync/build/index.js:649:20</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
